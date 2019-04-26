@@ -1,0 +1,26 @@
+{
+  "name": "coffeecu",
+  "version": "1.0.0",
+  "description": "Coffee@CU =========",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecolumbialion/coffeecu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecolumbialion/coffeecu/issues"
+  },
+  "homepage": "https://github.com/thecolumbialion/coffeecu#readme"
+}
