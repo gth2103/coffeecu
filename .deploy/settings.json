@@ -1,0 +1,37 @@
+{
+"public": {
+    "recaptcha": {
+      "key": [
+        "6LdSQywUAAAAAEkgnos2GM9_H47Y-ZUwyoTArpqH"
+      ]
+    }
+  },
+  "private": {
+    "mailgun": {
+      "host": "smtp.mailgun.org",
+      "username": "postmaster@coffeecu.com",
+      "password": "a92b089cefd9fd6983cbe50596ebda05",
+       "port": 587
+        },
+    "google": {
+      "clientId": 
+        "209528251350-aearhkobbmti2s2irhk897hvcverboob.apps.googleusercontent.com"
+      ,
+      "secret": 
+        "Ppu6S-VDzTBV89Z58EmeTJGd"
+      
+    },
+    "recaptcha": {
+      "secret": 
+        "6LdSQywUAAAAAKGbZg8_7Y0eI-l7610xj07Fn8G3"
+      
+    },
+    "admins": [
+        "bsn4DEh27Ps2HR5hC",
+        "JxczTdcb7nFE5kAhu",
+        "4xrSW393Dx9hiWsNZ",
+        "coa95fLjNdG5aEsx2",
+        "SLDLDysJiWZKDb6YG"
+    ]
+  }
+}

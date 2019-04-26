@@ -31,12 +31,21 @@ Template.matches.helpers({
     return {
       value: likes
     };
+  },
+  'initCounter' : function() {
+    Session.set('counter', 0)
+  },
+  'updateCounter' : function() {
+    var counter = Session.get('counter')
+    counter += 1;
+    Session.set('counter', counter)
   }
 });
 
 Template.matchesFound.helpers({
   'matches': function () {
-    return PeopleCollection.find().fetch()
+    return Session.get('counter')
+  
   }
 });
 
